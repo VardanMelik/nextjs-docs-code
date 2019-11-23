@@ -1,11 +1,13 @@
 import Home from './index'
 import Link from 'next/link'
+import Layout from '../components/Layout'
 
 const About = () => {
     return (
         <div>
+        <Layout />
             <p>This is the about page</p>
-            <Link href="./index" title="Back to Home">Back to Home</Link>
+            
         </div>
     )
 }
